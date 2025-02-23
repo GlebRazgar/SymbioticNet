@@ -1,6 +1,8 @@
 ## Project Overview 🔎
 
-SymbioteNet is a mechanistic interpretebility network that maps and interprets the primary model's circuitry. It does this by actively experimenting with "diffing" the primary models weights, and observing the subsequent behaviour changes. SymbioteNet is taught through 
+SymbioteNet is a mechanistic interpretebility network that helps in automatically mapping the primary model's circuitry. It does this by actively experimenting with "diffing" the primary models weights, and observing the subsequent behavioural changes. SymbioteNet is a secondary neural network that is iteratively trained to work alongside a primary model. Its main purpose is to selectively inhibit specific unwanted outputs from the primary model while preserving the model's performance on desired outputs. The system's effectiveness is evaluated under two conditions:
+1. Normal operating conditions 
+2. Polysemantic conditions 
 <img width="1000" alt="SymbiotNet" src="https://github.com/user-attachments/assets/265d3a0e-183d-44da-8dd6-7522ef1a0f0e">
 Weight inhibiting visualisation:
 
