@@ -34,6 +34,6 @@ git lfs pull
 
 4. Run the notebook to witness the Symbiosis :)
 
-Further description:
+### Process description:
 In this project I train and test models on an MNIST dataset. The ground model A is a CNN that classifies digits 1-10 like in a traditional MNIST. I then train the  "Symbiote" model B (MLP) to adjust the activations of model A during infrerence according to what input I want it to inhibit in model A. To be exact, after training the model A, I train the "Symbiote" in a supervised fashion by providing it a single number from 1-10 which the model should discriminate by acting on model A's activations during inference such that it classifies all digits correctly, but never outputs the specified digit (i.e: if we input 1 into the Symbiote model, the output should always be 2-10, but not 1).
 
