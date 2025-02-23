@@ -12,3 +12,4 @@ dependencies:
   - scikit-learn
   - ipykernel
 prefix: /home/azureuser/miniconda3/envs/ef_env
+ 
